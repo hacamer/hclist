@@ -29,7 +29,9 @@ baijiahao.baidu.com,m*.baidu.com,tieba.baidu.com,m.bilibili.com,csdn.net#%#docum
 www.deepl.com##[class^="SeoTextSection-module--"]
 
 ! 423down
-www.423down.com##LI.item:has(SPAN.sticky-post)
+423down.com##LI.item:has(SPAN.sticky-post)
+423down.com##[class*="my_widget_recent_comments"]
+423down.com##[class="footer-inner"]
 
 ! 果核脱壳
 ghxi.com##[class="sec-panel"]
@@ -38,9 +40,15 @@ ghxi.com##LI.item.item-sticky
 ghxi.com##.modules-image.wpcom-modules.section
 ghxi.com##.modules-text.wpcom-modules.section
 ghxi.com##.entry-related-posts
+ghxi.com##[id^="wpcom"][class$="widget_comments"]
+ghxi.com##[id^="wpcom"][class*="widget_post_"]
+ghxi.com##[class="entry-copyright"]
+ghxi.com##[class="entry-action"]
+ghxi.com##[class*="info"]
 
 ! yxssp
-www.yxssp.com##DIV.td_module_wrap.td-animation-stack:has([aria-label^='📌「置顶」'])
+yxssp.com##DIV.td_module_wrap.td-animation-stack:has([aria-label^='📌「置顶」'])
+yxssp.com##[class*="td-pb-border-top"]
 
 ! 阿虚同学
 ||axutongxue.com/js/Web*.js
@@ -67,40 +75,14 @@ ctfile.com##div.h-100.card
 
 ! Petalsearch 移除广告与新闻
 petalsearch.com##.feed-cont
-www.petalsearch.com##.van-pull-refresh.refresh-cont
-www.petalsearch.com##.advertisement-effect.card-v2.sparkle-card
+petalsearch.com##.van-pull-refresh.refresh-cont
+petalsearch.com##.advertisement-effect.card-v2.sparkle-card
 
 ! Csdn
 blog.csdn.net###wap_open_app_btn
 blog.csdn.net##.csdn-redpack-container
 blog.csdn.net##.over-the-screen
 blog.csdn.net##.title-box > a[href*="download.csdn"]
-
-! 腾讯视频网页端
-m.v.qq.com##.at-app-banner
-m.v.qq.com##.btn_sharpness path
-m.v.qq.com##.swiper-wrapper.source_container
-m.v.qq.com##.mod_app_banner
-m.v.qq.com##.mod_privilege
-m.v.qq.com##.mod_game_rec.mod_box
-m.v.qq.com##.mod_multi_figures_h.mod_sideslip_h.mod_box
-m.v.qq.com##.figure_app
-m.v.qq.com##.js_open_app.btn_user_hd
-m.v.qq.com##.site-top__open-app
-m.v.qq.com##.player-mask__small-tips
-
-! 爱奇艺网页端
-m.iqiyi.com##.rank-link
-m.iqiyi.com##.m-videoUser-spacing
-www.iq.com##.focus-promotion
-www.iq.com##.iqp-logoload-btn
-www.iq.com##.h5.download-container
-www.iq.com##[class*="playBannerNew__PlayBannerNewWrapper"]
-www.iq.com##.h5.qrcode-wrap
-www.iq.com##.open-app-btn
-www.iq.com##.focus-promotion
-www.iq.com##[class*="downloadApp__DownloadAppWrapper"]
-www.iq.com##.download-wrap
 
 !澎湃新闻
 m.thepaper.cn##[class*=index_footer_banner]
@@ -109,7 +91,6 @@ m.thepaper.cn##[class^=header_header_download]
 !百度贴吧
 ||c.tieba.baidu.com/c/f/forum/getAdInfo
 ||pn.baidu.com/*ad^
-
 tieba.baidu.com##.nav-bar-bottom
 tieba.baidu.com##.open-app
 tieba.baidu.com##.more-btn-desc
