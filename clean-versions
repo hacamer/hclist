@@ -1,0 +1,6 @@
+#!/bin/sh
+time=$(TZ=UTC-8 date +'%Y-%m-%d %H:%M') 
+date=$(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')
+sed -i "s/! Version:.*/! Version: $time /g" hc-annoyance.txt url-filter.txt
+sed -i "s/! Last Update:.*/! Last Update: $date /g" hc-annoyance.txt url-filter.txt
+exit

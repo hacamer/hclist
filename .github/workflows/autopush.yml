@@ -1,0 +1,34 @@
+name: Update Rules
+on: 
+  push:
+    branches:
+     - main
+  workflow_dispatch:
+  #schedule:
+  #  - cron:  '** * * *'
+  repository_dispatch:
+   type:
+    - [Manual-Update]
+
+jobs:
+  Pushed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main           
+      - name: Clean Versions & Update file
+        run: |
+          bash clean-versions
+          #bash ./adrules/main.sh
+          echo 'OK!'
+      - name: Git push assets to github
+        run: |
+          git init
+          git config --local user.name "hacamer"
+          git config --local user.email "hcamer145@gmail.com"
+          git branch -m main
+          git add .
+          git commit -m "Updated at $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')"
+          git push -f
+ 
+
+  
