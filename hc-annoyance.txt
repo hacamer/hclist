@@ -44,7 +44,7 @@ ghxi.com##[id^="wpcom"][class$="widget_comments"]
 ghxi.com##[id^="wpcom"][class*="widget_post_"]
 ghxi.com##[class="entry-copyright"]
 ghxi.com##[class="entry-action"]
-ghxi.com##[class*="info"]
+ghxi.com##[class="info text-center"]
 
 ! yxssp
 yxssp.com##DIV.td_module_wrap.td-animation-stack:has([aria-label^='📌「置顶」'])
@@ -68,7 +68,7 @@ meow.tg##[class="commonFooter"]
 
 ! PushPush的广告和小程序打开
 pushplus.plus##div.container.py-3.text-center
-www.pushplus.plus##.img-fluid
+pushplus.plus##.img-fluid
 
 ! 城通网盘
 ctfile.com##div.h-100.card
