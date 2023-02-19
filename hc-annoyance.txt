@@ -51,10 +51,11 @@ yxssp.com##DIV.td_module_wrap.td-animation-stack:has([aria-label^='📌「置顶
 yxssp.com##[class*="td-pb-border-top"]
 
 ! 阿虚同学
-||axutongxue.com/js/Web*.js
+||axutongxue.com^$cookie
 axutongxue.com##div > img
 axutongxue.com##[id="footer"]
 axutongxue.com##[id=bgCanvas]
+axutongxue.com#%#//scriptlet('trusted-click-element', 'button[id="btnClose"]', '', '500')
 
 ! Meow.TG
 meow.tg##[class*="danmu"]
