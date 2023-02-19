@@ -25,7 +25,10 @@ baijiahao.baidu.com,m*.baidu.com,tieba.baidu.com,m.bilibili.com,csdn.net#%#navig
 baijiahao.baidu.com,m*.baidu.com,tieba.baidu.com,m.bilibili.com,csdn.net#%#navigator.clipboard.write = {}
 baijiahao.baidu.com,m*.baidu.com,tieba.baidu.com,m.bilibili.com,csdn.net#%#document.write = {}
 
-!deepl
+! MoeGirl 
+moegirl.org.cn#%#//scriptlet('trusted-click-element', 'button[class="fc-close"]', '', '500')
+
+! Deepl
 www.deepl.com##[class^="SeoTextSection-module--"]
 
 ! 423down
