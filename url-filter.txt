@@ -98,6 +98,7 @@
 ||jd.com^$removeparam=jxsid
 ||jd.com^$removeparam=_fd
 ||jd.com^$removeparam=scene
+||jd.com^$removeparam=pvid
 
 ! 淘宝
 ||taobao.com^$removeparam=spm
