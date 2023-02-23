@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: HC's Annoyance List
-! Version: 2023-02-19 17:53 
-! Last Update: 2023-02-19 17:53:21 
+! Version: 2023-02-23 20:24 
+! Last Update: 2023-02-23 20:24:59 
 ! Expires: 1 Months
 !
 !------start------!
