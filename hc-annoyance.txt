@@ -58,7 +58,8 @@ yxssp.com##[class*="td-pb-border-top"]
 axutongxue.com##div > img
 axutongxue.com##[id="footer"]
 axutongxue.com##[id=bgCanvas]
-axutongxue.com#%#//scriptlet('trusted-click-element', 'button[id="btnClose"]', '', '500')
+axutongxue.com#%#//scriptlet('trusted-click-element', 'button[id="btnClose"]', '', '2500')
+axutongxue.com##aside
 
 ! Meow.TG
 meow.tg##[class*="danmu"]
