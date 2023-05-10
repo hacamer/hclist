@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: HC's URL Tracking Filter
-! Version: 2023-02-24 20:04 
-! Last Update: 2023-02-24 20:04:17 
+! Version: 2023-05-10 20:16 
+! Last Update: 2023-05-10 20:16:03 
 ! Expires: 1 Months
 ! Homepage: https://github.com/hacamer/AdRule
 !
